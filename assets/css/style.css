@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+:root {
+    --fs-18: 18.18px;
+    --fs-45: 45px;
+
+    --fw-200: 200;
+    --fw-500: 500;
+
+    --ff-Bebas: "Bebas Neue", sans-serif;
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-45 {
+    font-size: var(--fs-45);
+}
+
+.fw-200 {
+    font-weight: var(--fw-200);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.ff_Bebas {
+    font-family: var(--ff-Bebas);
+}
+
+.card_1 {
+    padding: 24px;
+    cursor: pointer;
+    max-height: 100%;
+    background-color: #f5deb3;
+    max-width: 555px !important;
+    border: 1px solid #000000;
+}
+
+.border_bottom {
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+
+.Common_Btn {
+    border: none;
+    outline: none;
+    padding: 12px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+
+.Common_Btn:hover {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    transition: all 255ms linear;
+}
+
+.Box_1 {
+    border: none;
+    outline: none;
+    padding: 12px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+
+.Box_1:hover {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    transition: all 255ms linear;
+}
